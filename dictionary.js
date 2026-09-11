@@ -491,6 +491,7 @@ export const wordArray = [
 'with',
 'wood',
 'word',
+'worm',
 'wore',
 'work',
 'yard',
