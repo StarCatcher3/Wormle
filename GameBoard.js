@@ -8,7 +8,7 @@ export class GameBoard {
 
         //current game options
         this.rounds = 6;
-        this.wordLength = 5;
+        this.wordLength = 4;
 
         //generates array of valid words that matches defined word length
         this.validWords = wordArray.filter((word) => word.length === this.wordLength);
