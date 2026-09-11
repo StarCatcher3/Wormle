@@ -11,8 +11,8 @@ export class GameBoard {
         this.wordLength = 4;
 
         //generates array of valid words that matches defined word length
-        this.validWords = wordArray.toUpperCase().filter((word) => word.length === this.wordLength);
-        this.word = "worm".toUpperCase();
+        this.validWords = wordArray.filter((word) => word.length === this.wordLength).map((word) => word.toUpperCase());
+        this.word = "WORM";
 
         //determines if game accepts input
         this.inputEnabled = true;
